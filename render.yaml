@@ -3,7 +3,7 @@ services:
     name: roommate-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port=$PORT
+    startCommand: streamlit run roomAI_app.py --server.port=$PORT
     envVars:
       - key: PYTHON_VERSION
         value: 3.10
